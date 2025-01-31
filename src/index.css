@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+.slick-slide {
+  margin: 0 10px;
+}
+
+
+
+@theme {
+  --color-purple: #A44EBC;
+}
