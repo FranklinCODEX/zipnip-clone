@@ -3,9 +3,9 @@
 export default function Footer() {
 
     return (
-        <footer className="min-h-[50vh] text-white p-14 " >
+        <footer className="text-white p-14 " >
             <div className="container mx-auto">
-                <div className="grid grid-cols-5 w-full place-content-between p-1 gap-5 ">
+                <div className="grid grid-cols-2 lg:grid-cols-5 w-full place-content-between p-1 lg:gap-5 gap-10 ">
                     <div className="flex flex-col gap-7 w-full" >
                         <h4 className="font-bold" >Product</h4>
                         <ul className="flex flex-col gap-4" >
@@ -62,7 +62,7 @@ export default function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className="flex flex-row items-end justify-end gap-7 my-4" >
+                <div className="flex flex-row lg:items-end items-center justify-center lg:justify-end gap-7 my-4" >
                     <a href="#"><i className="fa-brands fa-twitter text-3xl"></i></a>
                     <a href="#"><i className="fa-brands fa-facebook text-3xl"></i></a>
                     <a href="#"><i className="fa-brands fa-github text-3xl"></i></a>
@@ -74,7 +74,7 @@ export default function Footer() {
             </div>
             <hr className="w-full my-4" />
 
-            <p className=" w-[83%] " >
+            <p className=" lg:w-[83%] w-full " >
                 Hi! We are glad to have you here! Before you start visiting our Site, please note that for the best user experience, we use Cookies. By continuing to browse our Site, you consent to the collection, use, and storage of cookies on your device for us and our partners. You can revoke your consent any time in your device browsing settings. Click “Cookies Policy” to check how you can control them through your device.
             </p>
         </footer>

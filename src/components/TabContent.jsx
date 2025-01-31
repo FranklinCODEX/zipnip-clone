@@ -4,13 +4,13 @@ import connectivity from "../assets/images/connectivity.png"
 
 const TabContent = ({ activeTab }) => {
   return (
-    <div className="w-full bg-white ">
+    <div className="w-full">
       {activeTab === "connectivity" && (
-        <div className="flex flex-row items-center gap-3 px-7" >
+        <div className="flex lg:flex-row flex-col items-center gap-3 px-5" >
             <div className="flex items-start gap-10 flex-col" >
                 <h3 className=" font-medium text-3xl" >Connect with your customers easily</h3>
-                <p className="font-extralight w-[70%] text-lg" >Reach your customers wherever they are, no plug-ins required. Give your agents a truly channel agnostic platform: one screen with voice, email, social media, and messaging.</p>
-                <button className="flex items-center text-lg gap-2 rounded-lg px-6 text-white py-2 bg-purple" >
+                <p className="font-extralight lg:w-[70%] w-full text-lg" >Reach your customers wherever they are, no plug-ins required. Give your agents a truly channel agnostic platform: one screen with voice, email, social media, and messaging.</p>
+                <button className="flex items-center justify-center text-lg gap-2 rounded-lg px-7 text-white py-2 bg-purple" >
                     Read more 
                     <i className="fa-solid fa-arrow-right"></i>
                 </button>

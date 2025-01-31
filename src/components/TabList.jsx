@@ -14,7 +14,7 @@ export default function TabList({ activeTab, setActiveTab }) {
   ];
 
   return (
-    <ul className="flex gap-10 w-full pb-2">
+    <ul className="flex gap-10 w-full lg:overflow-hidden  overflow-x-scroll pb-2">
       {tabs.map((tab) => (
         <li
           key={tab}
